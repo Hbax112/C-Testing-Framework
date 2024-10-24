@@ -12,14 +12,14 @@ The **C Testing Framework** is a simple, automated system for identifying, compi
 - Cleans up empty error log files after execution.
 
 ## Usage
-1. Save the script with a `.sh` extension (e.g., `compile_and_run.sh`).
+1. Save the script as `CTestingFramework.sh`.
 2. Grant execute permissions to the script:
     ```bash
-    chmod +x compile_and_run.sh
+    chmod +x CTestingFramework.sh
     ```
 3. Run the script:
     ```bash
-    ./compile_and_run.sh <source_directory> <optional_output_directory>
+    ./CTestingFramework.sh <source_directory> <optional_output_directory>
     ```
 
    - `<source_directory>`: The folder where the C source files are located.
@@ -27,4 +27,4 @@ The **C Testing Framework** is a simple, automated system for identifying, compi
 
 ## Example
 ```bash
-./compile_and_run.sh ./src ./Output
+./CTestingFramework.sh ./src ./Output
